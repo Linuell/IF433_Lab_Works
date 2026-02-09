@@ -1,13 +1,13 @@
 package oop_00000112176_CeciliaWijaya.week02
 
- import java.util.Scanner
+import java.util.Scanner
 
 fun main() {
-    val scanner = Scanner( source = System.`in` )
+    val scanner = Scanner(  System.`in` )
 
     println("--- APLIKASI PMB UMN ---")
 
-    print("Masukkan Nama:   ")
+    print("Masukkan Nama: ")
     val name = scanner.nextLine()
 
     print("Masukan NIM (Wajib 5 Karakter):   ")
@@ -24,4 +24,5 @@ fun main() {
         val s1 = Student(name, nim, major)
         println("Status: Pendaftaran Selesai.")
     }
+
 }
