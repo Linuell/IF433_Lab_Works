@@ -15,6 +15,7 @@ fun main() {
 
     scanner.nextLine()
 
+
     if (nim.length != 5) {
         println("ERROR: Pendaftaran dibatalkan. NIM harus 5 karakter!")
     } else {
@@ -26,3 +27,5 @@ fun main() {
     }
 
 }
+
+
