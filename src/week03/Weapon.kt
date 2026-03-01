@@ -1,6 +1,6 @@
 package week03
 
-class Weapon {
+class Weapon ( val name: String) {
     var damage: Int = 0
         set(value) {
             if (value < 0) {

@@ -10,4 +10,14 @@ fun main () {
     e.increasePerformance()
 
     println("Pajak yang harus dibayar: ${e.tax}");
+
+//tugas
+    val sword = Weapon("Dragon Slayer")
+
+    sword.damage = -50
+    sword.damage = 9999
+
+    println("Weapon: ${sword.name}")
+    println("Damage: ${sword.damage}")
+    println("Tier: ${sword.tier}")
 }
