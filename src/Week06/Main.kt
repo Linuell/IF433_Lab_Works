@@ -22,3 +22,9 @@ class Main {
         processCheckout( pay2,150000.0 )
     }
 }
+
+fun main() {
+    // Instansiasi perangkat [cite: 176]
+    val lamp = SmartLamp("L01", "Ruang Tamu")
+    val speaker = SmartSpeaker("S01", "Google Nest Dapur")
+    val cctv = SmartCCTV("C01", "Ezviz Garasi")
