@@ -1,4 +1,7 @@
 package Week06
 
-class Clickable {
+interface Clickable {
+    val name: String // Abstract property, tidak ada nilai default
+    fun click()
+
 }
