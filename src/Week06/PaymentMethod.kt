@@ -1,4 +1,5 @@
 package Week06
 
-class PaymentMethod {
+interface PaymentMethod {
+    fun pay(amount: Double)
 }
