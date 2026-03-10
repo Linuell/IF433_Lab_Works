@@ -1,11 +1,10 @@
 package Week06
 
-class Capabilities {
-    interface BluetoorhConnectable {
+
+    interface BluetoothConnectable {
         fun connectToBluetooth()
     }
 
     interface Rechargeable{
         fun chargeBattery()
     }
-}
