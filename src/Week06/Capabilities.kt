@@ -2,7 +2,7 @@ package Week06
 
 class Capabilities {
     interface BluetoorhConnectable {
-        fun connectToBluetooth
+        fun connectToBluetooth()
     }
 
     interface Rechargeable{
