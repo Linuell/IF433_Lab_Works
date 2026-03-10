@@ -31,4 +31,20 @@ fun Main (){
     println("Luas Persegi: ${math.hitungLuas(4)}")
     println("Luas Persegi Panjang: ${math.hitungLuas(5, 3)}")
     println("Luas Lingkaran: ${math.hitungLuas(7.0)}")
+
+
+    val wallet = EWallet("Cecil", 50000.0)
+    val card = CreditCard("Cecil", 100000.0)
+
+    val payments: List<PaymentMethod> = listOf(wallet, card)
+
+    for (p in payments) {
+
+        p.processPayment(75000.0)
+
+        if (p is EWallet) {
+            p.topUp(50000.0)
+            p.processPayment(75000.0)
+        }
+    }
 }
