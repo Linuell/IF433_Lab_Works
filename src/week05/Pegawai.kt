@@ -1,4 +1,6 @@
 package week05
 
-class Pegawai {
+abstract class Pegawai (val name: String){
+    // Abstract function tidak memiliki body (tampa kurung kurawal)
+    abstract fun bekerja()
 }
