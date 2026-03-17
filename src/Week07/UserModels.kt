@@ -1,4 +1,4 @@
 package Week06.Week07
 
-class UserModels {
-}
+class RegularUser (val name: String, val age: Int)
+data class DataUser(val name: String, val age: Int)
