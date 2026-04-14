@@ -1,6 +1,6 @@
 package week08;
 
-public class LegacyJavaApi {
+public class LegacyJavaAPI {
     public static String fetchServerStatus() {
         return "SERVER_ONLINE_200_OK";
     }
