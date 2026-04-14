@@ -11,7 +11,6 @@ fun main() {
             "type" to "ELECTRONIC",
             "warranty" to 24
         ),
-
         mapOf(
             "id" to "C01",
             "name" to "T-Shirt",
