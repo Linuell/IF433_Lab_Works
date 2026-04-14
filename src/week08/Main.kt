@@ -31,7 +31,6 @@ fun main() {
             println("Ditemukan teks: ${it.uppercase()}")
         }
     }
-
     val someObject: Any = 100 // Tipe aslinya integer
     // coba cast kle string. jika gaga; (null), ganti dengan "unkwon String"
     val safeString = someObject as? String ?: "Unkwon String"
