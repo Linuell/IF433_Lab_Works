@@ -10,6 +10,7 @@ fun main() {
 
     val response = ApiResponse("200 OK", coinRepo.getAll())
 
+    println("=== COIN DATA ===")
     println(response.status)
 
     response.data.forEach {
@@ -21,4 +22,10 @@ fun main() {
     txRepo.add(Transaction("TX001", 500000.0))
     txRepo.add(Transaction("TX002", 250000.0))
 
+    println()
+    println("=== TRANSACTION DATA ===")
+
+    txRepo.getAll().forEach {
+        println("ID: ${it.id}, Amount: ${it.amount}")
+    }
 }
