@@ -1,7 +1,7 @@
 package week10
 
 fun main() {
-    println("=== TESTGENERIC CLASS===")
+    println("=== TEST GENERIC CLASS===")
     val intBox = Box(100)
     val stringBox = Box("Generics in kotlin")
 
@@ -11,4 +11,9 @@ fun main() {
     println("\n=== TEST MULTIPLE PARAMETERS ===")
     val itemPrice = PairBox("Bitsoin", 65000)
     println("Aset: ${itemPrice.key}, Harga: ${itemPrice.value} USD")
+
+    println("\n=== TEST GENERIC FUNCTIONS ====")
+    printData(3.14)
+    val result = processData("Stable Coin")
+    println("Hasil proses: $result")
 }
