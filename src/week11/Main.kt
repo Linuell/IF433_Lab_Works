@@ -53,6 +53,10 @@ fun main() {
     }
     println("Total Konsumsi Daya: $totalPower Watt")
 
+    println("\n=== DETAIL DIAGNOSTIK PERANGKAT ===")
+    homeDevices.forEach {
+        println(it.diagnose())
+    }
 }
 
 
