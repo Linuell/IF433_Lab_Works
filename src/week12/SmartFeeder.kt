@@ -26,7 +26,6 @@ fun dispenseKibble(
 
 fun main() {
     var currentKibbleStock = 50
-
     try {
         currentKibbleStock = dispenseKibble(
             requestedGram = 80,
