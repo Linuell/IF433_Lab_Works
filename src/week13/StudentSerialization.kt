@@ -22,4 +22,16 @@ fun fromCsv(line: String): Student {
             emptyList()
         }
     }
+
+    fun main() {
+        val students = listOf(
+            Student("Alice", 20, 3.8),
+            Student("Bob", 22, 3.5)
+        )
+        saveStudents(students, "students.csv")
+
+        val loaded = loadStudents("students.csv")
+        println("=== LOADED STUDENT DATA ===")
+        loaded.forEach { println(it) }
+    }
 }
